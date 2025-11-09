@@ -1,3 +1,4 @@
+/* Home Page */
 body {
     margin: 0;
     font-family: 'Montserrat', Arial, sans-serif;
@@ -142,6 +143,23 @@ footer {
     z-index: 99;
 }
 
+.cv-btn {
+    background: #444;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    padding: 14px 38px;
+    border-radius: 32px;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    transition: background 0.2s;
+}
+
+.cv-btn:hover {
+    background: #222;
+}
+
 /* Responsive */
 @media (max-width: 900px) {
     .home-content {
@@ -177,94 +195,7 @@ footer {
 
 
 
-body {
-    margin: 0;
-    font-family: 'Montserrat', Arial, sans-serif;
-    color: #fff;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.navbar {
-    background: #181818;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 24px;
-    height: 55px;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-}
-
-.logo {
-    font-size: 22px;
-    font-family: 'Georgia', serif;
-    color: #fff;
-    letter-spacing: 1px;
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 32px;
-    margin: 0;
-    padding: 0;
-}
-
-.nav-links li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 16px;
-    transition: color 0.2s;
-}
-
-.nav-links li a.active,
-.nav-links li a:hover {
-    color: #3c6cff;
-}
-
-.main-content {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.main-content h1 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 16px;
-    font-family: 'Georgia', serif;
-}
-
-.main-content p {
-    font-size: 1.3rem;
-    font-weight: bold;
-    margin-bottom: 32px;
-    font-family: 'Georgia', serif;
-}
-
-.cv-btn {
-    background: #444;
-    color: #fff;
-    font-size: 1.3rem;
-    font-weight: bold;
-    font-family: 'Georgia', serif;
-    padding: 14px 38px;
-    border-radius: 32px;
-    text-decoration: none;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
-    transition: background 0.2s;
-}
-
-.cv-btn:hover {
-    background: #222;
-}
-
+/* About Page */
 .about-title {
     text-align: center;
     font-size: 2.5rem;
@@ -321,16 +252,6 @@ body {
     animation: normal;
 }
 
-footer {
-    background: #000000a2;
-    color: #fff;
-    text-align: center;
-    padding: 12px 0;
-    font-size: 15px;
-    letter-spacing: 0.5px;
-    margin-top: auto;
-}
-
 /* Responsive */
 @media (max-width: 900px) {
 .about-content {
@@ -345,12 +266,13 @@ footer {
     }
     .about-text {
         font-size: 1.1rem;
-    }
+}
 
 
 
 
 
+/* Skills Page */
 .skills-content {
     flex: 1;
     display: flex;
@@ -444,54 +366,7 @@ footer {
 
 
 
-body {
-    margin: 0;
-    font-family: 'Montserrat', Arial, sans-serif;
-    color: #fff;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.navbar {
-    background: #181818;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 24px;
-    height: 55px;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-}
-
-.logo {
-    font-size: 22px;
-    font-family: 'Georgia', serif;
-    color: #fff;
-    letter-spacing: 1px;
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 32px;
-    margin: 0;
-    padding: 0;
-}
-
-.nav-links li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 16px;
-    transition: color 0.2s;
-}
-
-.nav-links li a.active,
-.nav-links li a:hover {
-    color: #3c6cff;
-}
-
+/* Certificates Page */
 .certificates-title {
     text-align: center;
     font-size: 2.5rem;
@@ -571,16 +446,6 @@ body {
 
 .zoom-img:active {
   transform: scale(2); /* jadi 2x lebih besar saat diklik */
-}
-
-footer {
-    background: #000000a2;
-    color: #fff;
-    text-align: center;
-    padding: 12px 0;
-    font-size: 15px;
-    letter-spacing: 0.5px;
-    margin-top: auto;
 }
 
 /* Responsive */
